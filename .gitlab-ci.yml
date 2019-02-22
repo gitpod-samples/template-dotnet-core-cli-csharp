@@ -1,0 +1,15 @@
+image: microsoft/dotnet:latest
+
+stages:
+    - build
+    - test
+
+build:
+    stage: build
+    script:
+        - "dotnet build"
+
+test:
+    stage: test
+    script: 
+        - "dotnet test"
