@@ -8,6 +8,9 @@ build:
     stage: build
     script:
         - "dotnet build"
+    artifacts:
+      paths:
+        - bin/
 
 test:
     stage: test
