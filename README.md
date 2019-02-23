@@ -12,14 +12,6 @@ If you're new to .NET you'll want to check out the tutorial, but if you're
 already a seasoned developer considering building your own .NET app with GitLab,
 this should all look very familiar.
 
-# Getting started
-
-First thing is to follow the [Android tutorial](https://developer.android.com/training/basics/firstapp/) and
-get Android Studio installed on your machine, so you can do development using
-the Android IDE. Other IDE options are possible, but not directly described or
-supported here. If you're using your own IDE, it should be fairly straightforward
-to convert these instructions to use with your preferred toolchain.
-
 ## What's contained in this project
 
 The root of the repository contains the out of the `dotnet new console` command,
