@@ -70,3 +70,9 @@ test:
 This should be enough to get you started. There are many, many powerful options 
 for your `.gitlab-ci.yml`. You can read about them in our documentation 
 [here](https://docs.gitlab.com/ee/ci/yaml/).
+
+## Developing with Gitpod
+
+This template repository also has a fully-automated dev setup for [Gitpod](https://docs.gitlab.com/ee/integration/gitpod.html).
+
+The `.gitpod.yml` ensures that, when you open this repository in Gitpod, you'll get a cloud workspace with .NET Core pre-installed, and your project will automatically be built and start running.
