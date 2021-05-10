@@ -20,15 +20,15 @@ namespace dotnetcore
         {
             get => nev;
             private set
-            {
+            { 
                 if (string.IsNullOrWhiteSpace(value))
-                {
-                    nev = value;
-                }
-                else
                 {
                     nev = "HIBÁS";
                     // TODO hibakezelés majd később jön ide, ilyenkor hibát kell dobni.
+                }
+                else
+                {
+                    nev = value;    
                 }
             }
         }
