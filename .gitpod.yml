@@ -2,15 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: Create a symbolic link for shiftfs
-    init: |
-      CONTAINER_DIR=$(awk '{ print $6 }' /proc/self/maps | grep ^\/run\/containerd | head -n 1 | cut -d '/' -f 1-6)
-      sudo mkdir -p $CONTAINER_DIR
-      sudo ln -s / $CONTAINER_DIR/rootfs
-      gp sync-done symbolic-link
   - name: Restore & Build
     init: |
-      gp sync-await symbolic-link
       dotnet dev-certs https 
       dotnet restore
       dotnet build
