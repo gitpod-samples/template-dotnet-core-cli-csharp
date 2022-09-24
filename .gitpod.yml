@@ -11,3 +11,4 @@ tasks:
 vscode:
   extensions:
     - muhammad-sammy.csharp
+    - esbenp.prettier-vscode
