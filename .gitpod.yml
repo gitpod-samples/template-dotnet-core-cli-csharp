@@ -4,11 +4,6 @@ image:
 tasks:
   - name: Restore & Build
     init: |
-      dotnet add package HarperDb.Net.Client
-      dornet add package AutoMapper
-      dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
-      dotnet add package Newtonsoft.Json
-      dotnet add package Swashbuckle.AspNetCore
       dotnet dev-certs https 
       dotnet restore
       dotnet build
