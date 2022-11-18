@@ -7,6 +7,8 @@ tasks:
       dotnet dev-certs https 
       dotnet restore
       dotnet build
+  - name: Run
+    command: dotnet run
 
 vscode:
   extensions:

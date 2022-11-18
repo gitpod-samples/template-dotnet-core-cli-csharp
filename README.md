@@ -1,6 +1,6 @@
 # A .NET Core CLI template on Gitpod
 
-This is a [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/introduction) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/introduction) template configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
